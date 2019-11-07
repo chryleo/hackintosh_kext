@@ -7,7 +7,7 @@
 
 
 ### Kext list
-* AppleALC
+* [AppleALC] (ttps://github.com/acidanthera/AppleALC)
 * FakeSMC
 * NullCPUPowerManagement
 * Lilu
