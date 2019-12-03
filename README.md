@@ -9,8 +9,8 @@
 
 ### Kext list
 * [AppleALC](https://github.com/acidanthera/AppleALC)
-* [FakeSMC](https://github.com/RehabMan/OS-X-FakeSMC-kozlek)
-* NullCPUPowerManagement
+* [VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+* ~~NUllCPUPowerManagement~~
 * [Lilu](https://github.com/acidanthera/Lilu)
 * [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 * [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet)

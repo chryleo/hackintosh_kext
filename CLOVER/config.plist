@@ -94,7 +94,7 @@
 				<key>FixSBUS</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 				<key>FixUSB</key>
@@ -162,6 +162,20 @@
 					WEhDXw==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -187,6 +201,8 @@
 				<false/>
 				<key>PStates</key>
 				<false/>
+				<key>PluginType</key>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
@@ -206,6 +222,13 @@
 		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
+	</dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>EFILoginHiDPI</key>
+		<integer>1</integer>
+		<key>UIScale</key>
+		<integer>1</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -228,8 +251,6 @@
 			<string>0x0</string>
 			<key>SATA</key>
 			<string>0x0</string>
-			<key>WIFI</key>
-			<string>0x0</string>
 			<key>XHCI</key>
 			<string>0x0</string>
 		</dict>
@@ -239,6 +260,8 @@
 			<true/>
 			<key>FixOwnership</key>
 			<true/>
+			<key>HighCurrent</key>
+			<false/>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -422,7 +445,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
